@@ -19,6 +19,10 @@ int main()
 {
   cout << "Small container:" << endl;
   calcSmallStats(3.0, 8.0);
-  calcMediumStats();
-  calcLargeStats();
+
+  cout << "Medium container:" << endl;
+  calcSmallStats(5.0, 12.0);
+
+  cout << "Large container:" << endl;
+  calcSmallStats(7.0, 18.0);
 }
