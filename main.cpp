@@ -42,7 +42,7 @@ void calcLargeStats()
 
 int main()
 {
-  calcSmallStats();
+  calcSmallStats(3.0, 8.0);
   calcMediumStats();
   calcLargeStats();
 }
