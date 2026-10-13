@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void calcSmallStats()
+void calcSmallStats(double smallRadius, double smallHeight)
 {
   double smallRadius = 3.0, smallHeight = 8.0;
   double smallEnds = 2 * numbers::pi * smallRadius * smallRadius;
